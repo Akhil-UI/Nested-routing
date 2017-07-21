@@ -1,0 +1,2 @@
+2017/07/21 15:15:39 [emerg] 49684#50044: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2017/07/21 15:37:49 [error] 47220#29636: *2 CreateFile() "F:\PORTFOLIO\Practice\Angular\nested\nginx-1.12.0/html/nested/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8600", referrer: "http://localhost:8600/"

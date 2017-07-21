@@ -1,0 +1,23 @@
+<html ng-app="ekart">
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0/angular-ui-router.js"></script>
+</head>
+
+<body>
+    <!--<div ng-include="'app/header/header.tpl.html'"></div>
+    <div ng-include="'app/Services/Services.tpl.html'"></div>
+    <div ng-include="'app/Products/Products.tpl.html'"></div>
+    <div ng-include="'app/ContactUs/ContactUs.tpl.html'"></div>-->
+     
+    <div ui-view></div>
+   
+    <script src="app/header/header.js"></script>
+    <script src="app/Services/Services.js"></script>
+    <script src="app/Products/Products.js"></script>
+    <script src="app/ContactUs/ContactUs.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
